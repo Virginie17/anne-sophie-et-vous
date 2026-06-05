@@ -23,7 +23,7 @@ export default function Values() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-14 max-w-3xl text-center">
           <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#D6B88A]">
-            Valeurs
+            Mes valeurs
           </p>
 
           <h2 className="brand-title text-4xl font-bold md:text-5xl">

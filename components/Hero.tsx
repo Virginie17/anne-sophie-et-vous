@@ -16,12 +16,26 @@ export default function Hero() {
             Retrouver du temps pour l&apos;essentiel
           </h1>
 
-          <p className="mb-8 max-w-xl text-lg leading-8 text-[#3C3C3C]/75">
-            Anne-Sophie & Vous accompagne les familles, les seniors autonomes
+          <p className="mb-6 max-w-xl text-lg leading-8 text-[#3C3C3C]/75">
+            J'accompagne les familles, les seniors autonomes
             et les particuliers avec écoute, bienveillance et simplicité pour
             alléger la charge mentale, simplifier le quotidien et retrouver plus
             de sérénité en Charente-Maritime.
           </p>
+          <div className="mb-6 grid gap-3 sm:grid-cols-3">
+  {[
+    "Premier échange offert",
+    "Angoulins & La Rochelle",
+    "Accompagnement humain",
+  ].map((badge) => (
+    <div
+      key={badge}
+      className="rounded-full border border-[#D6B88A]/40 bg-white/70 px-4 py-3 text-center text-sm font-medium text-[#0F5B6E] shadow-sm"
+    >
+      ✓ {badge}
+    </div>
+  ))}
+</div>
 
           <div className="flex flex-col gap-4 sm:flex-row">
             <a
@@ -35,7 +49,7 @@ export default function Hero() {
               href="#services"
               className="rounded-full border border-[#D6B88A] bg-white/60 px-8 py-4 text-center font-medium text-[#0F5B6E] transition hover:-translate-y-1 hover:bg-white"
             >
-              Découvrir les accompagnements
+              Voir comment je peux vous aider
             </a>
           </div>
         </div>
@@ -55,7 +69,7 @@ export default function Hero() {
 
           <div className="absolute -bottom-8 -left-6 rounded-3xl bg-white p-6 shadow-xl">
             <p className="text-sm uppercase tracking-[0.25em] text-[#D6B88A]">
-              Promesse
+              Ma promesse
             </p>
             <p className="mt-2 max-w-xs text-lg font-semibold text-[#0F5B6E]">
               Une présence, des solutions, de la sérénité.

@@ -1,5 +1,7 @@
-const phone = "06 00 00 00 00";
-const email = "contact@anne-sophie-et-vous.fr";
+import { siteConfig } from "../lib/site-config";
+
+const phone = siteConfig.phone;
+const email = siteConfig.email;
 
 export default function Footer() {
   return (
@@ -10,7 +12,7 @@ export default function Footer() {
             Anne-Sophie & Vous
           </p>
           <p className="mt-2 text-sm uppercase tracking-[0.25em] text-[#D6B88A]">
-           Votre alliée du quotidien
+            Votre alliée du quotidien
           </p>
           <p className="mt-4 max-w-sm text-sm leading-7 text-white/75">
             Accompagnement du quotidien à Angoulins, La Rochelle et alentours :
@@ -55,11 +57,14 @@ export default function Footer() {
 
         <div className="flex gap-5">
           <a href="/mentions-legales" className="transition hover:text-white">
-  Mentions légales
-</a>
-<a href="/politique-confidentialite" className="transition hover:text-white">
-  Politique de confidentialité
-</a>
+            Mentions légales
+          </a>
+          <a
+            href="/politique-confidentialite"
+            className="transition hover:text-white"
+          >
+            Politique de confidentialité
+          </a>
         </div>
       </div>
     </footer>

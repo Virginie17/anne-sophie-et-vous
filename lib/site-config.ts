@@ -1,0 +1,26 @@
+export const siteConfig = {
+  name: "Anne-Sophie & Vous",
+  tagline: "Votre alliée du quotidien",
+  slogan: "Retrouver du temps pour l’essentiel",
+  description:
+    "Anne-Sophie & Vous accompagne les familles, les seniors autonomes et les particuliers à Angoulins, La Rochelle et alentours pour alléger le quotidien, réduire la charge mentale et retrouver plus de sérénité.",
+  phone: "07.62.47.06.63",
+  phoneHref: "+33762470663",
+  email: "contact@anne-sophie-et-vous.fr",
+  url: "https://anne-sophie-et-vous.fr",
+  location: "Angoulins, La Rochelle et alentours",
+  city: "Angoulins",
+  areaServed: [
+    "Angoulins",
+    "La Rochelle",
+    "Aytré",
+    "Châtelaillon-Plage",
+    "Périgny",
+    "Salles-sur-Mer",
+    "Saint-Vivien",
+    "La Jarne",
+    "Yves",
+    "Agglomération rochelaise",
+    "Charente-Maritime",
+  ],
+};

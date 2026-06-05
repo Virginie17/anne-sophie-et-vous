@@ -1,5 +1,4 @@
-const phone = "06 00 00 00 00";
-const email = "contact@anne-sophie-et-vous.fr";
+import { siteConfig } from "../lib/site-config";
 
 export default function Contact() {
   return (
@@ -22,12 +21,12 @@ export default function Contact() {
         <div className="grid gap-4 text-left md:grid-cols-3">
           <div className="rounded-2xl bg-white p-6 shadow-sm">
             <p className="font-semibold text-[#0F5B6E]">Téléphone</p>
-            <p className="mt-2 text-sm text-[#3C3C3C]/65">{phone}</p>
+            <p className="mt-2 text-sm text-[#3C3C3C]/65">{siteConfig.phone}</p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm">
             <p className="font-semibold text-[#0F5B6E]">Email</p>
-            <p className="mt-2 text-sm text-[#3C3C3C]/65">{email}</p>
+            <p className="mt-2 text-sm text-[#3C3C3C]/65">{siteConfig.email}</p>
           </div>
 
           <div className="rounded-2xl bg-white p-6 shadow-sm">
@@ -38,12 +37,21 @@ export default function Contact() {
           </div>
         </div>
 
-        <a
-          href={`mailto:${email}`}
-          className="mt-10 inline-flex rounded-full bg-[#0F5B6E] px-8 py-4 font-medium text-white transition hover:-translate-y-1 hover:bg-[#0b4655]"
-        >
-          Demander un échange découverte
-        </a>
+        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+  <a
+    href={`mailto:${siteConfig.email}`}
+    className="inline-flex rounded-full bg-[#0F5B6E] px-8 py-4 font-medium text-white transition hover:-translate-y-1 hover:bg-[#0b4655]"
+  >
+    Demander un échange découverte
+  </a>
+
+  <a
+    href={`tel:${siteConfig.phone}`}
+    className="inline-flex rounded-full border border-[#D6B88A] bg-white px-8 py-4 font-medium text-[#0F5B6E] transition hover:-translate-y-1 hover:bg-[#FAF7F2]"
+  >
+    Me contacter
+  </a>
+</div>
       </div>
     </section>
   );

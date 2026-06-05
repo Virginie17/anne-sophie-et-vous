@@ -14,7 +14,7 @@ export default function About() {
 
         <div>
           <p className="text-lg leading-9 text-[#3C3C3C]/75">
-            Installée à Angoulins, près de La Rochelle, Anne-Sophie accompagne
+            Installée à Angoulins, près de La Rochelle, j'accompagne
             les familles, les seniors autonomes et les particuliers qui souhaitent
             alléger leur quotidien, réduire leur charge mentale et retrouver plus
             de sérénité.
@@ -22,7 +22,7 @@ export default function About() {
 
           <p className="mt-6 text-lg leading-9 text-[#3C3C3C]/75">
             Forte d&apos;une expérience en Ressources Humaines, en sophrologie et
-            dans l&apos;accompagnement humain, elle propose une présence rassurante,
+            dans l&apos;accompagnement humain, je propose une présence rassurante,
             une écoute attentive et des solutions personnalisées adaptées à chaque
             situation.
           </p>

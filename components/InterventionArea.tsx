@@ -25,7 +25,7 @@ export default function InterventionArea() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-[#3C3C3C]/75">
-            Anne-Sophie & Vous intervient principalement à Angoulins, La
+            J'interviens principalement à Angoulins, La
             Rochelle et dans les communes alentours pour accompagner les
             familles, les seniors autonomes et les particuliers dans leur
             quotidien.
