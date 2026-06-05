@@ -1,10 +1,3 @@
-import type { Metadata } from 'next';
-import { Montserrat, Playfair_Display } from 'next/font/google';
 import './globals.css';
-
-const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
-
-export const metadata: Metadata = {
-  title: 'Anne-Sophie & Vous | Accompagnatrice du Quotidien',
-  description: 'Accompagnement humain de
+export const metadata={title:'Anne-Sophie & Vous',description:'Accompagnatrice du Quotidien'};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="fr"><body>{children}</body></html>}
