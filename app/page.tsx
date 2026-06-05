@@ -9,6 +9,7 @@ import Offer from "../components/Offer";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import InterventionArea from "../components/InterventionArea";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Hero />
       <About />
       <Services />
+      <InterventionArea />
       <ForWho />
       <Process />
       <Values />

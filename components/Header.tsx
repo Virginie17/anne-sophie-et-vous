@@ -6,7 +6,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <a href="#" className="relative h-20 w-56">
           <Image
-            src="/logo-anne-sophie.png"
+            src="/logo-anne-sophie.webp"
             alt="Logo Anne-Sophie & Vous"
             fill
             priority
