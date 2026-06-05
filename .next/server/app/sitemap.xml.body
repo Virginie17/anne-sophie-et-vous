@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://anne-sophie-et-vous.fr</loc>
+<lastmod>2026-06-05T15:50:36.346Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://anne-sophie-et-vous.fr/mentions-legales</loc>
+<lastmod>2026-06-05T15:50:36.346Z</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://anne-sophie-et-vous.fr/politique-confidentialite</loc>
+<lastmod>2026-06-05T15:50:36.346Z</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+</urlset>

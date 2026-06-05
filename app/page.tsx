@@ -15,17 +15,17 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#FAF7F2] pb-24 text-[#3C3C3C] md:pb-0">
       <Header />
-<Hero />
-<About />
-<Trust />
-<Services />
-<Situations />
-<InterventionArea />
-<Process />
-<FAQ />
-<Contact />
-<Footer />
-<StickyMobileCTA />
+      <Hero />
+      <About />
+      <Trust />
+      <Services />
+      <Situations />
+      <InterventionArea />
+      <Process />
+      <FAQ />
+      <Contact />
+      <Footer />
+      <StickyMobileCTA />
     </main>
   );
 }

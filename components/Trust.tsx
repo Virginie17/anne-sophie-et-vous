@@ -1,27 +1,29 @@
 const trustItems = [
   {
     title: "Une expérience humaine solide",
-    text: "Anne-Sophie s’appuie sur son parcours en ressources humaines, son sens de l’écoute et son expérience de l’accompagnement pour comprendre chaque situation avec justesse.",
+    text: "Je m’appuie sur mon parcours en ressources humaines, mon sens de l’écoute et mon expérience de l’accompagnement pour comprendre chaque situation avec justesse.",
   },
   {
     title: "Une approche bienveillante",
-    text: "Chaque accompagnement est pensé avec respect, douceur et attention, en tenant compte du rythme, des besoins et de la sensibilité de chacun.",
+    text: "Chaque accompagnement est pensé avec respect, douceur et attention, en tenant compte de votre rythme, de vos besoins et de votre sensibilité.",
   },
   {
     title: "Une sensibilité au bien-être",
-    text: "Grâce à son approche autour de la sérénité, de l’équilibre et de la charge mentale, Anne-Sophie aide à retrouver un quotidien plus apaisé.",
+    text: "Grâce à mon approche autour de la sérénité, de l’équilibre et de la charge mentale, je vous aide à retrouver un quotidien plus apaisé.",
   },
   {
-    title: "Une interlocutrice unique",
-    text: "Pas de plateforme impersonnelle : vous échangez avec une personne de confiance, présente, disponible et impliquée dans votre accompagnement.",
+    title: "Une relation de confiance",
+    text: "Pas de plateforme impersonnelle : vous échangez avec une personne identifiée, disponible et impliquée dans votre accompagnement.",
   },
 ];
 
+const values = ["Écoute", "Confiance", "Simplicité", "Bienveillance"];
+
 export default function Trust() {
   return (
-    <section className="px-6 py-24">
+    <section className="px-6 py-20 md:py-24">
       <div className="mx-auto max-w-7xl">
-        <div className="mx-auto mb-14 max-w-3xl text-center">
+        <div className="mx-auto mb-12 max-w-3xl text-center">
           <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#D6B88A]">
             Confiance
           </p>
@@ -36,11 +38,22 @@ export default function Trust() {
           </p>
         </div>
 
+        <div className="mx-auto mb-12 flex max-w-3xl flex-wrap justify-center gap-3">
+          {values.map((value) => (
+            <span
+              key={value}
+              className="rounded-full border border-[#D6B88A]/40 bg-white/75 px-5 py-2 text-sm font-medium text-[#0F5B6E] shadow-sm"
+            >
+              {value}
+            </span>
+          ))}
+        </div>
+
         <div className="grid gap-6 md:grid-cols-2">
           {trustItems.map((item) => (
             <article
               key={item.title}
-              className="rounded-[2rem] border border-[#D6B88A]/30 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+              className="rounded-[2rem] border border-[#D6B88A]/30 bg-white/85 p-8 shadow-sm backdrop-blur transition hover:-translate-y-1 hover:shadow-xl"
             >
               <div className="mb-5 h-1 w-16 rounded-full bg-[#D6B88A]" />
 
