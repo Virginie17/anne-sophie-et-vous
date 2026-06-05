@@ -13,6 +13,10 @@ const config: Config = {
       fontFamily: {
         serifDisplay: ['var(--font-playfair)', 'serif'],
         sansText: ['var(--font-montserrat)', 'sans-serif']
-      },
-      boxShadow: {
-        soft: '0 18
+      }
+    }
+  },
+  plugins: []
+};
+
+export default config;
