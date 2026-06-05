@@ -7,4 +7,4 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 
 export const metadata: Metadata = {
   title: 'Anne-Sophie & Vous | Accompagnatrice du Quotidien',
-  description: 'Accompagnement humain de proximité pour retrouver du temps, de la sérénité et allé
+  description: 'Accompagnement humain de
