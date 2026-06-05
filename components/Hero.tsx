@@ -58,7 +58,7 @@ export default function Hero() {
           <div className="rounded-[2.5rem] bg-white p-5 shadow-2xl">
             <div className="relative h-[430px] overflow-hidden rounded-[2rem]">
               <Image
-                src="/anne-sophie-photo.png"
+                src="/photo.webp"
                 alt="Anne-Sophie, accompagnatrice du quotidien à Angoulins et La Rochelle"
                 fill
                 priority

@@ -871,11 +871,11 @@ video {
 .border-\[\#D6B88A\]\/30 {
   border-color: rgb(214 184 138 / 0.3);
 }
-.border-white\/15 {
-  border-color: rgb(255 255 255 / 0.15);
-}
 .border-\[\#D6B88A\]\/40 {
   border-color: rgb(214 184 138 / 0.4);
+}
+.border-white\/15 {
+  border-color: rgb(255 255 255 / 0.15);
 }
 .bg-\[\#0F5B6E\] {
   --tw-bg-opacity: 1;
@@ -905,14 +905,14 @@ video {
 .bg-white\/60 {
   background-color: rgb(255 255 255 / 0.6);
 }
+.bg-white\/70 {
+  background-color: rgb(255 255 255 / 0.7);
+}
 .bg-white\/90 {
   background-color: rgb(255 255 255 / 0.9);
 }
 .bg-white\/95 {
   background-color: rgb(255 255 255 / 0.95);
-}
-.bg-white\/70 {
-  background-color: rgb(255 255 255 / 0.7);
 }
 .object-contain {
   -o-object-fit: contain;
